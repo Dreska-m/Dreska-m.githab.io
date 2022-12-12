@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="wigth=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/js/javascript.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>YourTour</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">YourTour</div>
+          <nav class="nav" id="nav">
+            <a class="nav__link" href="#">Туры</a>
+            <a class="nav__link" href="#">Создать тур</a>
+            <a class="nav__link" href="#">Отзывы</a>
+            <a class="nav__link" href="#">Истории</a>
+          </nav>
+          <p class="header__number">+7 999 999 99 99</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <h1 class="intro__title">Идеальные путешествия существуют</h1>
+          <div class="intro__subtitle">
+            <p class="intro__text">
+              Идейные соображения высшего порядка, а также рамки и место
+              обучения кадров
+            </p>
+            <button class="btn">Найти тур</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section-menu">
+      <div class="container">
+        <div class="menu__section_header">
+          <h2 class="section__title">Выбери свой тур</h2>
+          <nav class="browsing">
+            <a class="browsing__choice" href="#"><b>Популярные</b></a>
+            <a class="browsing__choice" href="#"><b>Авторские</b></a>
+            <a class="browsing__choice" href="#"><b>Походы</b></a>
+            <a class="browsing__choice" href="#"><b>Сплавы</b></a>
+            <a class="browsing__choice" href="#"><b>Велопрогулки</b></a>
+          </nav>
+        </div>
+
+        <div class="about">
+          <div class="about__item">
+            <img class="about__img" src="assets/images/menu/1.png" alt="" />
+            <div class="about__text">
+              <h3 class="about__header">Путешествие в горы</h3>
+              <p class="abaut__subtitle">от 80 000 руб</p>
+              <button class="abaut__detail">
+                Подробнее
+                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="about__item">
+            <img class="about__img" src="assets/images/menu/2.png" alt="" />
+            <div class="about__text">
+              <h3 class="about__header">Путешествие в горы</h3>
+              <p class="abaut__subtitle">от 80 000 руб</p>
+              <button class="abaut__detail">
+                Подробнее
+                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="about__item">
+            <img class="about__img" src="assets/images/menu/3.png" alt="" />
+            <div class="about__text">
+              <h3 class="about__header">Путешествие в горы</h3>
+              <p class="abaut__subtitle">от 80 000 руб</p>
+              <button class="abaut__detail">
+                Подробнее
+                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="about__item">
+            <img class="about__img" src="assets/images/menu/4.png" alt="" />
+            <div class="about__text">
+              <h3 class="about__header">Путешествие в горы</h3>
+              <p class="abaut__subtitle">от 80 000 руб</p>
+              <button class="abaut__detail">
+                Подробнее
+                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="about__item">
+            <img class="about__img" src="assets/images/menu/5.png" alt="" />
+            <div class="about__text">
+              <h3 class="about__header">Путешествие в горы</h3>
+              <p class="abaut__subtitle">от 80 000 руб</p>
+              <button class="abaut__detail">
+                Подробнее
+                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+              </button>
+            </div>
+          </div>
+
+          <div class="about__item">
+            <img class="about__img" src="assets/images/menu/6.png" alt="" />
+            <div class="about__text">
+              <h3 class="about__header">Путешествие в горы</h3>
+              <p class="abaut__subtitle">от 80 000 руб</p>
+              <button class="abaut__detail">
+                Подробнее
+                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Собери свой тур</h2>
+          <p class="section__subtitle">
+            Идейные соображения высшего порядка,<br />а также рамки и место
+            обучения кадров
+          </p>
+        </div>
+        <div class="section__shape">
+          <div class="section__field">
+            <div class="section__field_completion">
+              <p class="section__label">Имя</p>
+              <p>
+                <input
+                  class="section__textBox"
+                  type="text"
+                  name="userName"
+                  placeholder="Введите Ваше имя"
+                />
+              </p>
+            </div>
+
+            <div class="section__field_completion">
+              <p class="section__label">Направление</p>
+              <select class="comboBox" name="format" id="format">
+                <option selected disabled>Куда хотите ехать</option>
+                <option>option 1</option>
+                <option>option 2</option>
+                <option>option 3</option>
+                <option>option 4</option>
+                <option>option 5</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="section__field">
+            <div class="section__field_completion">
+              <p class="section__label">Email</p>
+              <p>
+                <input
+                  class="section__textBox"
+                  type="text"
+                  name="userName"
+                  placeholder="example@mail.com"
+                />
+              </p>
+            </div>
+
+            <div class="section__field_completion">
+              <p class="section__label">Телефон</p>
+              <p>
+                <input
+                  class="section__textBox"
+                  type="text"
+                  name="userPhone"
+                  placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _"
+                  maxlength="11"
+                />
+              </p>
+            </div>
+          </div>
+
+          <div class="section__field">
+            <div class="section__field_completion">
+              <p class="section__label">Дата от</p>
+              <p>
+                <input
+                  class="section__textBox"
+                  type="text"
+                  name="Birth_date"
+                  placeholder="ДД.ММ.ГГГГ"
+                />
+              </p>
+            </div>
+
+            <div class="section__field_completion">
+              <p class="section__label">Дата до</p>
+              <p>
+                <input
+                  class="section__textBox"
+                  type="text"
+                  name="userName"
+                  placeholder="ДД.ММ.ГГГГ"
+                />
+              </p>
+            </div>
+          </div>
+
+          <div class="section__field_completion">
+            <p class="section__label">Комментарий</p>
+            <p>
+              <textarea
+                class="textBox__comments"
+                type="text"
+                name="comments"
+              ></textarea>
+            </p>
+          </div>
+
+          <div class="section__field_radio">
+            <p class="section__label">Вам есть 18 лет?</p>
+
+            <div class="section__radio">
+              <input type="radio" id="ritema" name="ritem" value="ropt1" />
+              <label for="ritema">Да</label>
+            </div>
+
+            <div class="section__radio">
+              <input type="radio" id="ritemb" name="ritem" value="ropt2" />
+              <label for="ritemb">Нет</label>
+            </div>
+          </div>
+
+          <div class="section__field">
+            <div class="checkbox">
+              <input
+                class="checkbox__imput"
+                type="checkbox"
+                id="checkbox"
+                name="citem"
+                value="ropt2"
+              />
+              <label class="checkbox__lebel" for="checkbox"
+                ><span class="colortext">
+                  Нажимая кнопку, я принимаю условия
+                </span>
+                <a class="outro__link" href="#">Лицензионного<br class="none-of"/>договора</a>
+              </label>
+            </div>
+          </div>
+
+          <div class="section__button">
+            <button class="section__search">Найти тур</button>
+            <button class="section__reset">Сбросить</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Отзывы наших<br />путешественников</h2>
+          <p class="section__subtitle">
+            Идейные соображения высшего порядка, а<br class="none" />также рамки
+            и место обучения кадров
+          </p>
+        </div>
+        <div class="section__comments">
+          <div class="comments">
+            <p class="comments__text">
+              Идейные соображения высшего порядка, а также рамки и место
+              обучения кадров обеспечивает широкому кругу (специалистов) участие
+              в формировании новых предложений. Идейные соображения высшего
+              порядка, а также начало повседневной работы по формированию
+              позиции позволяет оценить значение модели развития.
+            </p>
+
+            <div class="comments__signature">
+              <div>
+                <p class="comments__name">Мария</p>
+                <p class="comments__tour">Тур: Вдали от дома</p>
+              </div>
+              <img
+                class="comments__img"
+                src="assets/images/commentators/1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="comments">
+            <p class="comments__text">
+              Равным образом постоянный количественный рост и сфера нашей
+              активности играет важную роль в формировании системы обучения
+              кадров, соответствует насущным потребностям. <br />
+              <br />
+              Значимость этих проблем настолько очевидна, что дальнейшее
+              развитие различных форм деятельности обеспечивает широкому кругу
+              (специалистов) участие в формировании новых предложений.
+              Повседневная практика показывает, что реализация намеченных
+              плановых заданий в значительной степени обуславливает создание
+              модели развития.
+            </p>
+            <div class="comments__signature">
+              <div>
+                <p class="comments__name">Павел</p>
+                <p class="comments__tour">Тур: Путешествие в горы</p>
+              </div>
+              <img
+                class="comments__img"
+                src="assets/images/commentators/2.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Фотографии путешествий</h2>
+          <p class="section__subtitle">
+            Идейные соображения высшего порядка, а<br class="none" />также рамки
+            и место обучения кадров
+          </p>
+        </div>
+      </div>
+
+      <div class="works">
+        <div class="works__item">
+          <img
+            class="works__img"
+            id="works__img"
+            src="assets/images/travel photos/1.png"
+            alt="Фотография 1"
+          />
+        </div>
+        <picture>
+          <source media="(min-width: 1024px)" srcset="elva-480w.jpg" />
+          <div class="works__item">
+            <img
+              class="works__img"
+              id="works__img"
+              src="assets/images/travel photos/2.png"
+              alt="Фотография 2"
+            />
+          </div>
+        </picture>
+        <div class="works__item">
+          <img
+            class="works__img"
+            id="works__img"
+            src="assets/images/travel photos/3.png"
+            alt="Фотография 3"
+          />
+        </div>
+        <div class="works__item">
+          <img
+            class="works__img"
+            id="works__img"
+            src="assets/images/travel photos/4.png"
+            alt="Фотография 4"
+          />
+        </div>
+
+        <div class="works__item">
+          <img
+            class="works__img"
+            id="works__img"
+            src="assets/images/travel photos/5.png"
+            alt="Фотография 5"
+          />
+        </div>
+        <div class="works__item">
+          <img
+            class="works__img"
+            id="works__img"
+            src="assets/images/travel photos/6.png"
+            alt="Фотография 6"
+          />
+        </div>
+        <div class="works__item">
+          <img
+            class="works__img"
+            id="works__img"
+            src="assets/images/travel photos/7.png"
+            alt="Фотография 7"
+          />
+        </div>
+        <div class="works__item">
+          <img
+            class="works__img"
+            id="works__img"
+            src="assets/images/travel photos/8.png"
+            alt="Фотография 8"
+          />
+        </div>
+        <div class="works__item">
+          <img
+            class="works__img"
+            id="works__img"
+            src="assets/images/travel photos/9.png"
+            alt="Фотография 9"
+          />
+        </div>
+
+        <div class="works__item">
+          <img
+            class="works__img"
+            src="assets/images/travel photos/10.png"
+            alt="Фотография 10"
+          />
+        </div>
+        <div class="works__item">
+          <img
+            class="works__img"
+            src="assets/images/travel photos/11.png"
+            alt="Фотография 11"
+          />
+        </div>
+        <div class="works__item">
+          <img
+            class="works__img"
+            src="assets/images/travel photos/12.png"
+            alt="Фотография 12"
+          />
+        </div>
+        <div class="works__item">
+          <img
+            class="works__img"
+            src="assets/images/travel photos/13.png"
+            alt="Фотография 13"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title">Истории путешествий</h2>
+          <p class="section__subtitle">
+            Идейные соображения высшего порядка, а<br class="none" />также рамки
+            и место обучения кадров
+          </p>
+        </div>
+
+        <div class="about__item stories__item">
+          <img
+            class="about__img section__img"
+            src="assets/images/travel stories/1.png"
+            alt=""
+          />
+          <div class="stories__text">
+            <h3 class="stories__header">Автостопом в Стамбул</h3>
+            <p class="stories__subtitle">
+              Идейные соображения высшего порядка, а также рамки и
+              <br class="none" />место обучения кадров обеспечивает широкому
+              кругу <br class="none" />
+              (специалистов) участие в формировании новых
+              <br class="none" />предложений:
+              <br />
+              <br />
+              <ui>
+                <li class="stories__offers">вкусная еда</li>
+                <li class="stories__offers">дешевый транспорт</li>
+                <li class="stories__offers">красивый город.</li>
+              </ui>
+            </p>
+            <div class="stories__gruppe">
+              <button class="stories__detail">
+                Подробнее
+                <img src="assets/images/elements/ct.png" alt="" />
+              </button>
+
+              <nav class="stories__network none">
+                <a class="nav__link" href="#">instagram</a>
+                <a class="nav__link" href="#">facebook</a>
+                <a class="nav__link" href="#">YouTube</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__item stories__item">
+          <img
+            class="about__img section__img"
+            src="assets/images/travel stories/2.png"
+            alt=""
+          />
+          <div class="stories__text">
+            <h3 class="stories__header">Автостопом в Стамбул</h3>
+            <p class="stories__subtitle stories__indent">
+              Идейные соображения высшего порядка, а также рамки и<br
+                class="none"
+              />место обучения кадров обеспечивает широкому кругу<br
+                class="none"
+              />(специалистов) участие в формировании новых<br
+                class="none"
+              />предложений.
+            </p>
+            <div class="stories__gruppe">
+              <button class="stories__detail">
+                Подробнее
+                <img src="assets/images/elements/ct.png" alt="" />
+              </button>
+
+              <nav class="stories__network none">
+                <a class="nav__link" href="#">instagram</a>
+                <a class="nav__link" href="#">ВКонтакте</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__item stories__item">
+          <img
+            class="about__img section__img"
+            src="assets/images/travel stories/3.png"
+            alt=""
+          />
+          <div class="stories__text">
+            <h3 class="stories__header">Автостопом в Стамбул</h3>
+            <p class="stories__subtitle stories__indent">
+              Идейные соображения высшего порядка, а также рамки и<br
+                class="none"
+              />место обучения кадров обеспечивает широкому кругу<br
+                class="none"
+              />(специалистов) участие в формировании новых<br
+                class="none"
+              />предложений.
+            </p>
+            <div class="stories__gruppe">
+              <button class="stories__detail">
+                Подробнее
+                <img src="assets/images/elements/ct.png" alt="" />
+              </button>
+
+              <nav class="stories__network none">
+                <a class="nav__link" href="#">instagram</a>
+                <a class="nav__link" href="#">facebook</a>
+                <a class="nav__link" href="#">ВКонтакте</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="container__outro">
+          <img class="works__img for__img" src="assets/images/outro.png" alt="" />
+          <div class="outro__text">
+            <h3 class="stories__header outro__header">
+              Пора в путешествие вместе с нами!
+            </h3>
+            <p class="outro__subtitle">
+              <span class="colortext">
+                Напиши на почту и узнай подробности
+              </span>
+              на <a class="outro__link" href="#">yourtour@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__text">
+          <p class="footer__network">Наши социальные сети</p>
+          <nav class="browsing fot__brow">
+            <nav class="footer__nav">
+              <img
+                class="footer__img"
+                src="assets/images/elements/in.png"
+                alt=""
+              />
+              <a class="footer__link indent" href="#">instagram</a>
+
+              <img
+                class="footer__img"
+                src="assets/images/elements/f.png"
+                alt=""
+              />
+              <a class="footer__link indent" href="#">facebook</a>
+
+              <img
+                class="footer__img"
+                src="assets/images/elements/vk.png"
+                alt=""
+              />
+              <a class="footer__link indent" href="https://vk.com/"
+                >vkontakte</a
+              >
+            </nav>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
