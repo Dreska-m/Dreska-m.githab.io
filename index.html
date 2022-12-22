@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="wigth=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/js/javascript.js">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/headerScroll.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,6 +15,17 @@
       rel="stylesheet"
     />
     <title>YourTour</title>
+    <meta
+      name="description"
+      content="Идеальные путешествия существуют.
+    Походы, сплавы, велопрогулки. Выбери свой тур."
+    />
+
+    <meta
+      name="keywords"
+      content="YourTour создать тур  выбери туры  
+    идеальные путешествия походы сплавы велопрогулки"
+    />
   </head>
 
   <body>
@@ -36,8 +50,8 @@
           <h1 class="intro__title">Идеальные путешествия существуют</h1>
           <div class="intro__subtitle">
             <p class="intro__text">
-              Идейные соображения высшего порядка, а также рамки и место
-              обучения кадров
+              Идейные соображения высшего порядка, а <br class="off" />также
+              рамки и место обучения кадров
             </p>
             <button class="btn">Найти тур</button>
           </div>
@@ -66,7 +80,11 @@
               <p class="abaut__subtitle">от 80 000 руб</p>
               <button class="abaut__detail">
                 Подробнее
-                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+                <img
+                  class="btn-img"
+                  src="assets/images/elements/ct.png"
+                  alt=""
+                />
               </button>
             </div>
           </div>
@@ -77,7 +95,11 @@
               <p class="abaut__subtitle">от 80 000 руб</p>
               <button class="abaut__detail">
                 Подробнее
-                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+                <img
+                  class="btn-img"
+                  src="assets/images/elements/ct.png"
+                  alt=""
+                />
               </button>
             </div>
           </div>
@@ -89,7 +111,11 @@
               <p class="abaut__subtitle">от 80 000 руб</p>
               <button class="abaut__detail">
                 Подробнее
-                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+                <img
+                  class="btn-img"
+                  src="assets/images/elements/ct.png"
+                  alt=""
+                />
               </button>
             </div>
           </div>
@@ -101,7 +127,11 @@
               <p class="abaut__subtitle">от 80 000 руб</p>
               <button class="abaut__detail">
                 Подробнее
-                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+                <img
+                  class="btn-img"
+                  src="assets/images/elements/ct.png"
+                  alt=""
+                />
               </button>
             </div>
           </div>
@@ -113,7 +143,11 @@
               <p class="abaut__subtitle">от 80 000 руб</p>
               <button class="abaut__detail">
                 Подробнее
-                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+                <img
+                  class="btn-img"
+                  src="assets/images/elements/ct.png"
+                  alt=""
+                />
               </button>
             </div>
           </div>
@@ -125,7 +159,11 @@
               <p class="abaut__subtitle">от 80 000 руб</p>
               <button class="abaut__detail">
                 Подробнее
-                <img class="btn-img" src="assets/images/elements/ct.png" alt="" />
+                <img
+                  class="btn-img"
+                  src="assets/images/elements/ct.png"
+                  alt=""
+                />
               </button>
             </div>
           </div>
@@ -260,7 +298,9 @@
                 ><span class="colortext">
                   Нажимая кнопку, я принимаю условия
                 </span>
-                <a class="outro__link" href="#">Лицензионного<br class="none-of"/>договора</a>
+                <a class="outro__link" href="#"
+                  >Лицензионного <br class="none-of" />договора</a
+                >
               </label>
             </div>
           </div>
@@ -288,8 +328,9 @@
               Идейные соображения высшего порядка, а также рамки и место
               обучения кадров обеспечивает широкому кругу (специалистов) участие
               в формировании новых предложений. Идейные соображения высшего
-              порядка, а также начало повседневной работы по формированию
-              позиции позволяет оценить значение модели развития.
+              порядка, а также начало повседневной<br class="none-of" />
+              работы по формированию позиции позволяет оценить значение модели
+              развития.
             </p>
 
             <div class="comments__signature">
@@ -345,83 +386,72 @@
       </div>
 
       <div class="works">
-        <div class="works__item">
+        <div class="works__item" id="works__img">
           <img
             class="works__img"
-            id="works__img"
             src="assets/images/travel photos/1.png"
             alt="Фотография 1"
           />
         </div>
-        <picture>
-          <source media="(min-width: 1024px)" srcset="elva-480w.jpg" />
-          <div class="works__item">
-            <img
-              class="works__img"
-              id="works__img"
-              src="assets/images/travel photos/2.png"
-              alt="Фотография 2"
-            />
-          </div>
-        </picture>
-        <div class="works__item">
+        <div class="works__item none-img" id="works__img">
           <img
             class="works__img"
-            id="works__img"
+            src="assets/images/travel photos/2.png"
+            alt="Фотография 2"
+          />
+        </div>
+        <div class="works__item none-img-sm" id="works__img">
+          <img
+            class="works__img"
             src="assets/images/travel photos/3.png"
             alt="Фотография 3"
           />
         </div>
-        <div class="works__item">
+        <div class="works__item" id="works__img">
           <img
             class="works__img"
-            id="works__img"
             src="assets/images/travel photos/4.png"
             alt="Фотография 4"
           />
         </div>
 
-        <div class="works__item">
-          <img
-            class="works__img"
-            id="works__img"
-            src="assets/images/travel photos/5.png"
-            alt="Фотография 5"
-          />
+        <div class="works_grup" id="works__img">
+          <div class="works__item">
+            <img
+              class="works__img"
+              src="assets/images/travel photos/5.png"
+              alt="Фотография 5"
+            />
+          </div>
+          <div class="works__item none-img-sm">
+            <img
+              class="works__img"
+              src="assets/images/travel photos/6.png"
+              alt="Фотография 6"
+            />
+          </div>
+          <div class="works__item none-img">
+            <img
+              class="works__img"
+              src="assets/images/travel photos/7.png"
+              alt="Фотография 7"
+            />
+          </div>
+          <div class="works__item">
+            <img
+              class="works__img"
+              src="assets/images/travel photos/8.png"
+              alt="Фотография 8"
+            />
+          </div>
+          <div class="works__item">
+            <img
+              class="works__img"
+              src="assets/images/travel photos/9.png"
+              alt="Фотография 9"
+            />
+          </div>
         </div>
-        <div class="works__item">
-          <img
-            class="works__img"
-            id="works__img"
-            src="assets/images/travel photos/6.png"
-            alt="Фотография 6"
-          />
-        </div>
-        <div class="works__item">
-          <img
-            class="works__img"
-            id="works__img"
-            src="assets/images/travel photos/7.png"
-            alt="Фотография 7"
-          />
-        </div>
-        <div class="works__item">
-          <img
-            class="works__img"
-            id="works__img"
-            src="assets/images/travel photos/8.png"
-            alt="Фотография 8"
-          />
-        </div>
-        <div class="works__item">
-          <img
-            class="works__img"
-            id="works__img"
-            src="assets/images/travel photos/9.png"
-            alt="Фотография 9"
-          />
-        </div>
-
         <div class="works__item">
           <img
             class="works__img"
@@ -429,6 +459,7 @@
             alt="Фотография 10"
           />
         </div>
+
         <div class="works__item">
           <img
             class="works__img"
@@ -436,16 +467,16 @@
             alt="Фотография 11"
           />
         </div>
-        <div class="works__item">
+        <div class="works__item none-img-sm">
           <img
             class="works__img"
             src="assets/images/travel photos/12.png"
             alt="Фотография 12"
           />
         </div>
-        <div class="works__item">
+        <div class="works__item none-img">
           <img
-            class="works__img"
+            class="works__img img-position"
             src="assets/images/travel photos/13.png"
             alt="Фотография 13"
           />
@@ -568,7 +599,7 @@
     <section class="section">
       <div class="container">
         <div class="container__outro">
-          <img class="works__img for__img" src="assets/images/outro.png" alt="" />
+          <img class="for__img" src="assets/images/outro.png" alt="" />
           <div class="outro__text">
             <h3 class="stories__header outro__header">
               Пора в путешествие вместе с нами!
@@ -577,12 +608,13 @@
               <span class="colortext">
                 Напиши на почту и узнай подробности
               </span>
-              на <a class="outro__link" href="#">yourtour@gmail.com</a>
+              <br class="off" />на
+              <a class="outro__link" href="#">yourtour@gmail.com</a>
             </p>
           </div>
         </div>
       </div>
-    </section>  
+    </section>
 
     <footer class="footer">
       <div class="container">
@@ -590,28 +622,33 @@
           <p class="footer__network">Наши социальные сети</p>
           <nav class="browsing fot__brow">
             <nav class="footer__nav">
-              <img
-                class="footer__img"
-                src="assets/images/elements/in.png"
-                alt=""
-              />
-              <a class="footer__link indent" href="#">instagram</a>
+              <div class="footer__img">
+                <img
+                  class="footer_img"
+                  src="assets/images/elements/in.png"
+                  alt=""
+                />
+                <a class="footer__link indent" href="#">instagram</a>
+              </div>
+              <div class="footer__img">
+                <img
+                  class="footer_img"
+                  src="assets/images/elements/f.png"
+                  alt=""
+                />
+                <a class="footer__link indent" href="#">facebook</a>
+              </div>
 
-              <img
-                class="footer__img"
-                src="assets/images/elements/f.png"
-                alt=""
-              />
-              <a class="footer__link indent" href="#">facebook</a>
-
-              <img
-                class="footer__img"
-                src="assets/images/elements/vk.png"
-                alt=""
-              />
-              <a class="footer__link indent" href="https://vk.com/"
-                >vkontakte</a
-              >
+              <div class="footer__img">
+                <img
+                  class="footer_img"
+                  src="assets/images/elements/vk.png"
+                  alt=""
+                />
+                <a class="footer__link indent" href="https://vk.com/"
+                  >vkontakte</a
+                >
+              </div>
             </nav>
           </nav>
         </div>
