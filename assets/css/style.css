@@ -708,10 +708,16 @@ h1,h2,h3,p,button{
 
 .comments__signature {
     width: 490px;
-    position: absolute;
-    bottom: 0;
     display: flex;
     margin: 43px 39px;
+    position: absolute;
+    bottom: 0;
+}
+
+.aasd {
+    position: relative;
+    text-align: inherit;
+    flex: auto;
 }
 
 .comments__name {
@@ -727,9 +733,8 @@ h1,h2,h3,p,button{
 }
 
 .comments__img {
-    position: absolute;
     border-radius: 100px;
-    right: 0;
+    text-align: right;
 }
 
 
@@ -957,7 +962,6 @@ h1,h2,h3,p,button{
 
 .footer {
     width: 100%;
-    height: 88px;
     background: #F4F0E9;
 }
 
@@ -1210,6 +1214,7 @@ h1,h2,h3,p,button{
 
     .stories__item {
         margin-bottom: 50px;
+        width: 100%;
     }
 
 
@@ -1316,6 +1321,32 @@ h1,h2,h3,p,button{
 }
 
 @media (max-width: 500px) { 
+
+    .footer__text {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__nav {
+        font-size: 16px;
+    }
+
+    .footer__img {
+        margin-right: 0px;
+    }
+
+    .comments__signature {
+        width: 285px;
+        position: initia;
+    }
+
+    .for__img {
+        height: 133px;
+        width: 130px;
+        border-radius: 20px;
+        margin: -22px 95px;
+    }
+
     .works__item {
         width: 45%;
         height: 116px;
@@ -1331,7 +1362,8 @@ h1,h2,h3,p,button{
     }
 
     .comments {
-        height: 690px;
+        height: auto;
+        width: 351px;
     }
 
     .section__textBox {
@@ -1373,6 +1405,16 @@ h1,h2,h3,p,button{
         font-size: 16px;
         line-height: 22.72px;
         padding-top: 15px;
+    }
+
+    .header__logo {
+        font-size: 30px;
+        margin-right: 0;
+        letter-spacing: 1.5px;
+    }
+
+    .container {
+        max-width: 320px;
     }
 }
 
