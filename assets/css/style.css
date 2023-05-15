@@ -380,7 +380,7 @@ h1,h2,h3,p,button{
 /** Section */
 
 .section {
-    padding-bottom: 135px;
+    padding-bottom: 134px;
 }
 
 .section__header {
@@ -605,7 +605,7 @@ h1,h2,h3,p,button{
     font-size: 25px;
     font-weight: 400;
     color: #1B1F2B;
-    margin-right: 31px;
+    margin-right: 19px;
 }
 
 .section__radio label:before {
@@ -1117,6 +1117,7 @@ h1,h2,h3,p,button{
         margin-bottom: 18px;
         margin-left: -3px;
         margin-right: -5px;
+        width: 40%;
     }
 
     .section-menu {
@@ -1124,8 +1125,8 @@ h1,h2,h3,p,button{
     }
 
     .about__img {
-        width: 450px;
-        height: 531px;
+        width: 100%;
+        height: 100%;
     }
 
     .section__subtitle {
@@ -1142,8 +1143,8 @@ h1,h2,h3,p,button{
     }
 
     .about__text {
-        width: 450px;
-        height: 531px;
+        width: 100%;
+        height: 100%;
     }
 
     .abaut__detail {
@@ -1166,7 +1167,7 @@ h1,h2,h3,p,button{
     }
 
     .section__radio label {
-        margin-right: 27px;
+        margin-right: 20px;
     }
 
     .section__field_radio {
@@ -1307,6 +1308,11 @@ h1,h2,h3,p,button{
     .works__img {
         border-radius: 30px;
     }
+
+    .about__item {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 500px) { 
